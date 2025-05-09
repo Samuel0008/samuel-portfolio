@@ -1,0 +1,488 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    box-sizing: border-box;
+    background-color: #1B1E23;
+    color: #e0e0e0;
+    font-size: 18px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: #e0e0e0;
+}
+
+p {
+    line-height: 28px;
+}
+
+header {
+    padding: 32px 64px 32px 64px;
+    top: 0%;
+    height: 24px;
+    background-color: #1B1E23;
+    position: sticky;
+    display: flex;
+    justify-content: space-between;
+}
+
+#devSam11 {
+    color: gold;
+    font-weight: 700;
+    font-size: 24px;
+    padding-right: 4px;
+}
+
+#logo { 
+    display: flex;
+    justify-content: space-between;
+}
+
+#navSection li {
+    display: inline;
+}
+
+ul li a {
+    display: inline;
+    color: #e0e0e0;
+    text-decoration: none;
+    margin-left: 16px;
+}
+
+#aboutMe {
+    /* color: rgb(196, 194, 194); */
+    /* display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 56px;
+    padding-right: 56px;
+    margin-bottom: 56px;
+    padding-top: 96px; */
+    background-color: #1B1E23;
+    /* height: 1280px; */
+}
+
+#aboutMeHeroImg {
+    height: 800px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 56px;
+    padding-right: 56px;
+    /* margin-bottom: 56px; */
+    padding-top: 12px;
+    background: url("myPhotos/myHero.png");
+    overlay: red;
+    /* background: url("copy img/6230e4ff69a8f142114d0d12_home-hero-bg-image-developer-webflow-ecommerce-template-p-500.png"); */
+    background-repeat: no-repeat;
+    background-size: 70%;
+    background-position: -96px 0px;
+}
+
+#aboutMe1 {
+    /* border: 1px solid red; */
+    margin-left: 440px;
+    margin-top: -32px;
+}
+
+#aboutMe2 {
+    /* border: 1px solid red; */
+    margin-top: -96px;
+
+}
+
+
+#aboutMe1 hr {
+    width: 0px;
+    height: 8px;
+    background-color: #e0e0e0;
+}
+
+#aboutMe1 h4 {
+    font-size: 40px;
+    margin-top: 24px;
+}
+
+#aboutMe2AboutMe h5, p, #aboutMe2MyWork h5, p{
+    margin-bottom: 16px;
+}
+
+#aboutMe2LearnMore, #aboutMe2BrowsePortfolio {
+    text-decoration: underline;
+}
+
+#aboutMe hr {
+    /* margin-bottom: 24px; */
+    width: 256px;
+}
+
+#aboutMe2MainHr {
+    margin-top: 48px;
+    margin-bottom: 48px;
+}
+
+#aboutSamuel {
+    background-color: #212830;
+    padding: 128px 56px 56px 56px;
+}
+
+#aboutSamuelUp {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 128px;
+}
+
+#aboutSamuelUpLeft h5, p{
+    margin-bottom: 16px;
+}
+
+#aboutSamuelFirstParagraph {
+    font-size: 40px;
+    margin-bottom: 16px;
+}
+
+#aboutSamuelMoreAboutMe {
+    text-decoration: underline;
+}
+
+#aboutSamuelUpRightUp, #yearsOfExp, #successfulProjects {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+#yearsOfExpNum, #successfulProjectsNum {
+    font-size: 56px;
+    font-weight: 700;
+    margin-right: 12px;
+    text-align: center;
+    line-height: normal;
+}
+
+#yearsOfExpTxt, #successfulProjectsTxt {
+    font-weight: 700;
+    line-height: normal;
+}
+
+#aboutSamuelDown {
+    margin-top: 64px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#aboutSamuelDown ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 50%;
+}
+
+#mySkills {
+    padding: 128px 56px 128px 56px;
+    background-color: #1B1E23;
+
+}
+
+#mySkills h5 {
+    margin-bottom: 32px;
+}
+
+#mySkillsExt {
+    margin-bottom: 40px;
+    font-size: 40px;
+    line-height: normal;
+    font-weight: 700;
+}
+
+#mySkillsList {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+
+#skill1, #skill2, #skill3 {
+    border-radius: 48px;
+    background-color: #212830;
+    width: 320px;
+    height: 256px;
+    padding: 128px 24px 40px 24px;
+}
+
+#skill1Line, #skill2Line, #skill3Line {
+    background-color: #e0e0e0;
+    height: 4px;
+    width: 96px;
+}
+
+#skill1Title, #skill2Title, #skill3Title {
+    font-size: 32px;
+    font-weight: 700;
+    line-height: normal;
+}
+
+#skill1Txt, #skill2Txt, #skill3Txt {
+    color: grey;
+}
+
+#myPortfolio {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 128px 64px 128px 64px;
+}
+
+#myPortfolioLeft, #myPortfolioRight {
+    width: 100%;
+}
+
+#myPortfolioTxt{
+    font-size: 48px;
+    line-height: normal;
+    font-weight: 700;
+    width: 100%;
+}
+
+#myPortfolioImg1, #myPortfolioImg2, #myPortfolioImg3 {
+    width: 512px;
+    height: 256px;
+}
+
+#myPortfolioImg1 {
+    margin-right: 64px;
+}
+
+#myPortfolioImg2 {
+    width: 512px;
+    height: 256px;
+    margin-bottom: 96px;
+}
+
+#myPortfolioImg3 {
+    width: 512px;
+    height: 256px;
+}
+
+
+
+
+
+
+#teamUp {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #212830;
+    padding: 128px 64px 128px 64px;
+}
+
+#teamUpLeft hr {
+    height: 4px;
+    width: 128px;
+    margin-bottom: 24px;
+    background-color: #e0e0e0;
+
+}
+
+#teamUpLeft p {
+    font-size: 56px;
+    font-weight: 700;
+    line-height: normal;
+}
+
+#teamUpRight {
+    width: 512px;
+    /* border-radius: 48px;
+    background-color: #1B1E23;
+    width: 320px;
+    height: 256px;
+    padding: 128px 24px 40px 24px;
+    display: flex;
+    flex-direction: column;
+    align-items: center; */
+}
+
+#teamUpRightTop, #teamUpRightBtm {
+    border-radius: 48px;
+    background-color: #1B1E23;
+    width: 320px;
+    height: 192px;
+    /* padding: 128px 24px 40px 24px; */
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    justify-content: center;
+}
+
+#teamUpRightBtm {
+    margin-top: 32px;
+    align-items: center; 
+}
+
+#teamUpRight label {
+    font-weight: 700;
+    font-size: 24px;
+}
+
+#teamUpRight input {
+    background-color: #212830;
+    padding-bottom: 32px;
+    border-top: #1B1E23;
+    border-left: #1B1E23;
+    border-right: #1B1E23;
+    outline: none;
+    color: #e0e0e0;
+    font-size: 16px;
+    font-weight: 700;
+    margin-bottom: 40px;
+
+}
+
+
+#teamUpRightTxt2 p {
+    font-weight: 700;
+    font-size: 20px;
+}
+
+#usingGit, #usingWhats {
+    font-size: 14px;
+    font-weight: 700;
+}
+
+#teamUpRight a {
+    text-decoration: underline;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+footer {
+    background-color: #1B1E23;
+    padding: 128px 56px 0px 56px;
+}
+
+#footerUp {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#footerUpLeftProfile img {
+    width: 192px;
+    height: 192px;
+    border-radius: 96px;
+    background-color: #212830;
+}
+
+#footerUpLeftProfile {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#footerUpLeftProfileTxt {
+    margin-left: 24px;
+}
+
+#footerUpLeftProfileName {
+    font-weight: 700;
+    font-size: 32px;
+}
+
+#footerUpLeftProfileRole {
+    color: gray;
+}
+
+#footerUpRight {
+    width: 448px;
+}
+
+#footerUpRightTch {
+    font-size: 40px;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 2px;
+}
+
+#footerUpRightEmailCall {
+    width: 448px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#footerUpRightEmailTxt1, #footerUpRightCallTxt1 {
+    color: grey;
+    font-size: 16px;
+}
+
+
+
+
+
+#footerDown {
+    padding: 24px 0px 32px 0px;
+}
+
+#footerDownMain {
+    font-weight: 600;
+    padding-top: 32px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#footerDownPart1 li {
+    display: inline;
+}
+
+#footerDown ul li a {
+    display: inline;
+    color: #e0e0e0;
+    text-decoration: none;
+    margin-left: auto;
+    margin-right: 16px;
+} 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+#212830 Arsenic
+#1B1E23 89%black
+#075FE4 royal blue
+*/
